@@ -1,6 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Domestos.Application.csproj" />
     <ProjectReference Include="..\Infrastructure.Persistence.Abstractions\Domestos.Infrastructure.Persistence.Abstractions.csproj" />
   </ItemGroup>
 

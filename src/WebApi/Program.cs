@@ -1,5 +1,6 @@
 using Domestos.Application;
 using Domestos.Application.Products.Commands;
+using Domestos.Application.Products.Queries;
 using Domestos.Infrastructure;
 using Domestos.Infrastructure.Persistence;
 using MediatR;
@@ -22,7 +23,6 @@ switch (persistence)
     default: throw new Exception("No persistence set. Choose SqlServer or PostgreSQL persistence in application configuration");
 }
 
-builder.Services.AddSqlServer(builder.Configuration);
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -61,6 +61,11 @@ app.MapPost("/products", async ([FromBody] CreateProduct command, [FromServices]
         CancellationToken cancellationToken = default) => await mediator.Send(command, cancellationToken))
     .WithName("Create")
     .WithOpenApi();
+
+app.MapGet("/products", async ([FromServices] IMediator mediator,
+CancellationToken cancellationToken = default) => await mediator.Send(new GetProducts(), cancellationToken))
+.WithName("Get")
+.WithOpenApi();
 
 await app.RunAsync();
 

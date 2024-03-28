@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Application\Domestos.Application.csproj" />
     <ProjectReference Include="..\Infrastructure.Persistence.Abstractions\Domestos.Infrastructure.Persistence.Abstractions.csproj" />
+    <ProjectReference Include="..\Infrastructure.Persistence\Domestos.Infrastructure.Persistence.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
