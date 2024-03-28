@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.WebApi", "WebApi\Domestos.WebApi.csproj", "{F4B4A341-1A44-4C91-AEDB-66F783470989}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.Infrastructure.Persistence.Abstractions", "Infrastructure.Persistence.Abstractions\Domestos.Infrastructure.Persistence.Abstractions.csproj", "{0EE590C1-73B6-4520-BFD3-3BA01AAAB95C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{F4B4A341-1A44-4C91-AEDB-66F783470989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4B4A341-1A44-4C91-AEDB-66F783470989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4B4A341-1A44-4C91-AEDB-66F783470989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE590C1-73B6-4520-BFD3-3BA01AAAB95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE590C1-73B6-4520-BFD3-3BA01AAAB95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE590C1-73B6-4520-BFD3-3BA01AAAB95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE590C1-73B6-4520-BFD3-3BA01AAAB95C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
