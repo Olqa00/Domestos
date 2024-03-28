@@ -1,12 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain\Domestos.Domain.csproj" />
+    <ProjectReference Include="..\Infrastructure.Persistence.Abstractions\Domestos.Infrastructure.Persistence.Abstractions.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.1" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+    <Folder Include="PostgreSQL\Models\" />
   </ItemGroup>
 
   <PropertyGroup>

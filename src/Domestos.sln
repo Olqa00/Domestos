@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.WebApi", "WebApi\D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.Infrastructure.Persistence.Abstractions", "Infrastructure.Persistence.Abstractions\Domestos.Infrastructure.Persistence.Abstractions.csproj", "{0EE590C1-73B6-4520-BFD3-3BA01AAAB95C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.Infrastructure.Persistence.SqlServer", "Infrastructure.Persistence.SqlServer\Domestos.Infrastructure.Persistence.SqlServer.csproj", "{157B937D-B139-4B87-847B-05563CA05ECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.Infrastructure.Persistence.PostgreSQL", "Infrastructure.Persistence.PostgreSQL\Domestos.Infrastructure.Persistence.PostgreSQL.csproj", "{872CC70B-743E-4BA8-AC1D-0133ED39B904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.Infrastructure.Persistence", "Infrastructure.Persistence\Domestos.Infrastructure.Persistence.csproj", "{3A9E48C5-ED62-4EC1-970C-8ACA9FD9A0B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +48,17 @@ Global
 		{0EE590C1-73B6-4520-BFD3-3BA01AAAB95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EE590C1-73B6-4520-BFD3-3BA01AAAB95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EE590C1-73B6-4520-BFD3-3BA01AAAB95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157B937D-B139-4B87-847B-05563CA05ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157B937D-B139-4B87-847B-05563CA05ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157B937D-B139-4B87-847B-05563CA05ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157B937D-B139-4B87-847B-05563CA05ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872CC70B-743E-4BA8-AC1D-0133ED39B904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872CC70B-743E-4BA8-AC1D-0133ED39B904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872CC70B-743E-4BA8-AC1D-0133ED39B904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872CC70B-743E-4BA8-AC1D-0133ED39B904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A9E48C5-ED62-4EC1-970C-8ACA9FD9A0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9E48C5-ED62-4EC1-970C-8ACA9FD9A0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9E48C5-ED62-4EC1-970C-8ACA9FD9A0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9E48C5-ED62-4EC1-970C-8ACA9FD9A0B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

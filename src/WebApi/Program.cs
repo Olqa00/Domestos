@@ -1,6 +1,7 @@
 using Domestos.Application;
 using Domestos.Application.Products.Commands;
 using Domestos.Infrastructure;
+using Domestos.Infrastructure.Persistence;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,6 +11,18 @@ builder.Services
     .AddApplication()
     .AddInfrastructure(builder.Configuration);
 
+var persistence = builder.Configuration.GetValue<string>("Persistence");
+
+switch (persistence)
+{
+    case "SqlServer" : builder.Services.AddSqlServer(builder.Configuration);
+        break;
+    case "PostgreSQL" : builder.Services.AddPostgreSQL(builder.Configuration);
+        break;
+    default: throw new Exception("No persistence set. Choose SqlServer or PostgreSQL persistence in application configuration");
+}
+
+builder.Services.AddSqlServer(builder.Configuration);
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
