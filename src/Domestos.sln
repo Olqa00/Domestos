@@ -3,29 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.Domain", "Domain\Domestos.Domain.csproj", "{CF78AFBB-4ADC-4A73-A00D-2033B0DAB88E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Domain", "Domain\Domestos.Domain.csproj", "{CF78AFBB-4ADC-4A73-A00D-2033B0DAB88E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.Application", "Application\Domestos.Application.csproj", "{E5877EF2-F461-402A-9DF6-684C3D4B5EB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Application", "Application\Domestos.Application.csproj", "{E5877EF2-F461-402A-9DF6-684C3D4B5EB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.Infrastructure", "Infrastructure\Domestos.Infrastructure.csproj", "{599DB758-2AB9-4092-B9A4-15C2A96D5D6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Infrastructure", "Infrastructure\Domestos.Infrastructure.csproj", "{599DB758-2AB9-4092-B9A4-15C2A96D5D6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.WebApi", "WebApi\Domestos.WebApi.csproj", "{F4B4A341-1A44-4C91-AEDB-66F783470989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.WebApi", "WebApi\Domestos.WebApi.csproj", "{F4B4A341-1A44-4C91-AEDB-66F783470989}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.Infrastructure.Persistence.Abstractions", "Infrastructure.Persistence.Abstractions\Domestos.Infrastructure.Persistence.Abstractions.csproj", "{0EE590C1-73B6-4520-BFD3-3BA01AAAB95C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Infrastructure.Persistence.Abstractions", "Infrastructure.Persistence.Abstractions\Domestos.Infrastructure.Persistence.Abstractions.csproj", "{0EE590C1-73B6-4520-BFD3-3BA01AAAB95C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.Infrastructure.Persistence.SqlServer", "Infrastructure.Persistence.SqlServer\Domestos.Infrastructure.Persistence.SqlServer.csproj", "{157B937D-B139-4B87-847B-05563CA05ECB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Infrastructure.Persistence.SqlServer", "Infrastructure.Persistence.SqlServer\Domestos.Infrastructure.Persistence.SqlServer.csproj", "{157B937D-B139-4B87-847B-05563CA05ECB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.Infrastructure.Persistence.PostgreSQL", "Infrastructure.Persistence.PostgreSQL\Domestos.Infrastructure.Persistence.PostgreSQL.csproj", "{872CC70B-743E-4BA8-AC1D-0133ED39B904}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Infrastructure.Persistence.PostgreSQL", "Infrastructure.Persistence.PostgreSQL\Domestos.Infrastructure.Persistence.PostgreSQL.csproj", "{872CC70B-743E-4BA8-AC1D-0133ED39B904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domestos.Infrastructure.Persistence", "Infrastructure.Persistence\Domestos.Infrastructure.Persistence.csproj", "{3A9E48C5-ED62-4EC1-970C-8ACA9FD9A0B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Infrastructure.Persistence", "Infrastructure.Persistence\Domestos.Infrastructure.Persistence.csproj", "{3A9E48C5-ED62-4EC1-970C-8ACA9FD9A0B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CF78AFBB-4ADC-4A73-A00D-2033B0DAB88E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -60,5 +57,11 @@ Global
 		{3A9E48C5-ED62-4EC1-970C-8ACA9FD9A0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A9E48C5-ED62-4EC1-970C-8ACA9FD9A0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A9E48C5-ED62-4EC1-970C-8ACA9FD9A0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {614567E8-A271-48F3-810F-B06E5CA3165D}
 	EndGlobalSection
 EndGlobal
