@@ -14,7 +14,7 @@ public sealed class ProductEntity
         this.SetName(name);
     }
 
-    private void SetName(string name)
+    public void SetName(string name)
     {
         var trimmedName = name.Trim();
 
