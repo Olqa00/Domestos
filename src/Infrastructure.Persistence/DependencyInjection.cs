@@ -1,4 +1,4 @@
-﻿namespace Domestos.Infrastructure.Persistence;
+﻿namespace Domestos.Persistence;
 
 using System.Reflection;
 using Microsoft.Extensions.Configuration;

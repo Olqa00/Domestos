@@ -1,4 +1,4 @@
-﻿namespace Domestos.Infrastructure.Persistence
+﻿namespace Domestos.Persistence
 {
     internal sealed class SqlServerOptions
     {

@@ -2,7 +2,7 @@ using Domestos.Application;
 using Domestos.Application.Products.Commands;
 using Domestos.Application.Products.Queries;
 using Domestos.Infrastructure;
-using Domestos.Infrastructure.Persistence;
+using Domestos.Persistence;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

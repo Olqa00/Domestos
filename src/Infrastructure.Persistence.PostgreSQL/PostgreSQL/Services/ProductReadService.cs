@@ -1,7 +1,7 @@
-﻿namespace Domestos.Infrastructure.Persistence.PostgreSQL.Services;
+﻿namespace Domestos.Persistence.PostgreSQL.Services;
 
-using Domestos.Infrastructure.Persistence.Interfaces;
-using Domestos.Infrastructure.Persistence.Models;
+using Domestos.Persistence.Interfaces;
+using Domestos.Persistence.Models;
 using Npgsql;
 
 internal sealed class ProductReadService : IProductReadService

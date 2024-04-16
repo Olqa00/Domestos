@@ -1,8 +1,8 @@
-﻿namespace Domestos.Infrastructure.Persistence.SqlServer.Services;
+﻿namespace Domestos.Persistence.SqlServer.Services;
 
 using Dapper;
-using Domestos.Infrastructure.Persistence.Interfaces;
-using Domestos.Infrastructure.Persistence.Models;
+using Domestos.Persistence.Interfaces;
+using Domestos.Persistence.Models;
 using Microsoft.Extensions.Configuration;
 using System.Data.SqlClient;
 

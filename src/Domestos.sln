@@ -11,13 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Infrastructure", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.WebApi", "WebApi\Domestos.WebApi.csproj", "{F4B4A341-1A44-4C91-AEDB-66F783470989}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Infrastructure.Persistence.Abstractions", "Infrastructure.Persistence.Abstractions\Domestos.Infrastructure.Persistence.Abstractions.csproj", "{0EE590C1-73B6-4520-BFD3-3BA01AAAB95C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Persistence.Abstractions", "Infrastructure.Persistence.Abstractions\Domestos.Persistence.Abstractions.csproj", "{0EE590C1-73B6-4520-BFD3-3BA01AAAB95C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Infrastructure.Persistence.SqlServer", "Infrastructure.Persistence.SqlServer\Domestos.Infrastructure.Persistence.SqlServer.csproj", "{157B937D-B139-4B87-847B-05563CA05ECB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Persistence.SqlServer", "Infrastructure.Persistence.SqlServer\Domestos.Persistence.SqlServer.csproj", "{157B937D-B139-4B87-847B-05563CA05ECB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Infrastructure.Persistence.PostgreSQL", "Infrastructure.Persistence.PostgreSQL\Domestos.Infrastructure.Persistence.PostgreSQL.csproj", "{872CC70B-743E-4BA8-AC1D-0133ED39B904}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Persistence.PostgreSQL", "Infrastructure.Persistence.PostgreSQL\Domestos.Persistence.PostgreSQL.csproj", "{872CC70B-743E-4BA8-AC1D-0133ED39B904}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Infrastructure.Persistence", "Infrastructure.Persistence\Domestos.Infrastructure.Persistence.csproj", "{3A9E48C5-ED62-4EC1-970C-8ACA9FD9A0B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domestos.Persistence", "Infrastructure.Persistence\Domestos.Persistence.csproj", "{3A9E48C5-ED62-4EC1-970C-8ACA9FD9A0B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

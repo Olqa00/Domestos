@@ -1,4 +1,4 @@
-﻿namespace Domestos.Infrastructure.Persistence.PostgreSQL.Services;
+﻿namespace Domestos.Persistence.PostgreSQL.Services;
 
 using Domestos.Domain.Entities;
 using Domestos.Domain.Interfaces;

@@ -1,4 +1,4 @@
-﻿namespace Domestos.Infrastructure.Persistence.SqlServer.Services;
+﻿namespace Domestos.Persistence.SqlServer.Services;
 
 using Domestos.Domain.Entities;
 using Domestos.Domain.Interfaces;

@@ -1,8 +1,8 @@
-﻿namespace Domestos.Infrastructure.Persistence.QueryHandlers;
+﻿namespace Domestos.Persistence.QueryHandlers;
 
 using Domestos.Application.Products.ViewModels;
 using Domestos.Application.Products.Queries;
-using Domestos.Infrastructure.Persistence.Interfaces;
+using Domestos.Persistence.Interfaces;
 using MediatR;
 using ProductsResult = System.Collections.Generic.IReadOnlyList<Domestos.Application.Products.ViewModels.Product>;
 
@@ -12,7 +12,7 @@ internal sealed class GetProductsHandler(IProductReadService service) : IRequest
     {
         var products = await service.GetAllProductsAsync(cancellationToken);
 
-        var results = products.Select(product => new Product() 
+        var results = products.Select(product => new Product()
         {
             Id = product.Id,
             Name = product.Name,

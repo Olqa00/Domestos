@@ -1,10 +1,10 @@
-﻿namespace Domestos.Infrastructure.Persistence;
+﻿namespace Domestos.Persistence;
 
 using Domestos.Domain.Interfaces;
-using Domestos.Infrastructure.Persistence.Interfaces;
+using Domestos.Persistence.Interfaces;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Domestos.Infrastructure.Persistence.PostgreSQL.Services;
+using Domestos.Persistence.PostgreSQL.Services;
 using Npgsql;
 
 public static class DependencyInjection
@@ -14,7 +14,6 @@ public static class DependencyInjection
         var options = new PostgreSQLOptions();
         var connectionString = configuration.GetConnectionString("DomestosConnection");
         CheckConnection(connectionString);
-        
 
         options.ConnectionString = connectionString;
         services.AddSingleton(options);

@@ -1,4 +1,4 @@
-﻿using Domestos.Infrastructure.Persistence;
+﻿using Domestos.Persistence;
 
 namespace Domestos.Infrastructure;
 

@@ -1,6 +1,6 @@
-﻿namespace Domestos.Infrastructure.Persistence.Interfaces;
+﻿namespace Domestos.Persistence.Interfaces;
 
-using Domestos.Infrastructure.Persistence.Models;
+using Domestos.Persistence.Models;
 
 public interface IProductReadService
 {

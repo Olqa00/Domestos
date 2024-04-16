@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Infrastructure.Persistence.Abstractions\Domestos.Infrastructure.Persistence.Abstractions.csproj" />
+    <ProjectReference Include="..\Infrastructure.Persistence.Abstractions\Domestos.Persistence.Abstractions.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,7 +16,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <RootNamespace>Domestos.Infrastructure.Persistence</RootNamespace>
+    <RootNamespace>Domestos.Persistence</RootNamespace>
   </PropertyGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace Domestos.Infrastructure.Persistence.Models;
+﻿namespace Domestos.Persistence.Models;
 
 public sealed class Product
 {
